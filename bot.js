@@ -9,6 +9,7 @@ const keywords = [
   { keyword: /hello|hi/i, reply: "Hello there!" },
   { keyword: /السلام عليكم/i, reply: "وعليكم السلام ورحمة الله وبركاته" },
   { keyword: /bye|goodbye/i, reply: "See you soon!" },
+  { keyword: how, reply: "fine" },
 ];
 
 bot.on("message", (msg) => {
